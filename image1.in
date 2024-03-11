@@ -1,0 +1,26 @@
+5
+F
+FF+F-F-F+F
+
+%!PS-Adobe-3.0
+%%Orientation: Portrait
+%%DocumentMedia: a4 595 842 80 () ()
+%%Pages: 1
+%%EndComments
+%%EndProlog
+%%BeginSetup
+  << /PageSize [595 842] /Orientation 0 >> setpagedevice
+%%EndSetup
+%%Page: 1 1
+  /Times-Roman findfont 50 scalefont setfont
+  72 600 moveto
+  (ABC) show
+  31 287 moveto
+
+F  2.2 0 rlineto
++  90 rotate
+-  -90 rotate
+
+  stroke showpage
+%%Trailer
+%%EOF

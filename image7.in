@@ -1,0 +1,33 @@
+12
+L
+LL+R+
+R-L-R
+
+%!PS-Adobe-3.0
+%%Orientation: Portrait
+%%DocumentMedia: a4 595 842 80 () ()
+%%Pages: 1
+%%EndComments
+%%EndProlog
+%%BeginSetup
+  << /PageSize [595 842] /Orientation 0 >> setpagedevice
+%%EndSetup
+%%Page: 1 1
+  /Times-Roman findfont 100 scalefont setfont
+  100 170 moveto
+  82 rotate
+  (krzywa) show
+  -82 rotate
+  276 731 moveto
+  /Palatino-Italic findfont 120 scalefont setfont
+  (smoka) true charpath stroke
+  213 208 moveto
+
+L  0 -8 rlineto
+R  0 -8 rlineto
++  90 rotate
+-  -90 rotate
+
+  stroke showpage
+%%Trailer
+%%EOF

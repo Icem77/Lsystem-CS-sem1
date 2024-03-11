@@ -1,0 +1,29 @@
+4
+L
+LL+R++R-L--LL-R+
+R-L+RR++R+L--L-R
+
+%!PS-Adobe-3.0
+%%Orientation: Portrait
+%%DocumentMedia: a4 595 842 80 () ()
+%%Pages: 1
+%%EndComments
+%%EndProlog
+%%BeginSetup
+  << /PageSize [595 842] /Orientation 0 >> setpagedevice
+%%EndSetup
+%%Page: 1 1
+  1 0 0 3 copy setrgbcolor
+  377 152 moveto
+  /kreska { 10 0 rlineto currentpoint stroke moveto } def
+  /lewo { 60 rotate 3 1 roll 3 copy setrgbcolor } def
+  /prawo { -60 rotate 3 -1 roll 3 copy setrgbcolor } def
+
+R  kreska
+L  kreska
++  lewo
+-  prawo
+
+  showpage
+%%Trailer
+%%EOF

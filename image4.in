@@ -1,0 +1,23 @@
+4
+F-F-F-F
+FFF-F-F-F-FF
+
+%!PS-Adobe-3.0
+%%Orientation: Portrait
+%%DocumentMedia: a4 595 842 80 () ()
+%%Pages: 1
+%%EndComments
+%%EndProlog
+%%BeginSetup
+  << /PageSize [595 842] /Orientation 0 >> setpagedevice
+%%EndSetup
+%%Page: 1 1
+  3 setlinewidth
+  35 157 moveto
+
+F  6.5 0 rlineto
+-  90 rotate
+
+  stroke showpage
+%%Trailer
+%%EOF

@@ -1,0 +1,26 @@
+5
+X
+FFF
+XF-[[X]+X]+F[+FX]-X
+
+%!PS-Adobe-3.0
+%%Orientation: Portrait
+%%DocumentMedia: a4 595 842 80 () ()
+%%Pages: 1
+%%EndComments
+%%EndProlog
+%%BeginSetup
+  << /PageSize [595 842] /Orientation 0 >> setpagedevice
+%%EndSetup
+%%Page: 1 1
+  0.1 0.7 0 setrgbcolor 384 19 moveto
+
+F  0 10 rlineto
++  22.5 rotate
+-  -22.5 rotate
+[  gsave currentpoint newpath moveto
+]  stroke grestore
+
+  stroke showpage
+%%Trailer
+%%EOF
